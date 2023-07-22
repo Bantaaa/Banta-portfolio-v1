@@ -8,7 +8,7 @@ body{
 }
 
 .whole{
-    background-color: #c0392b;
+    background-color: #38ada9;
 }
 
 /* nav barre */
@@ -55,21 +55,84 @@ nav ul li:hover{
     padding: 0.8em;
 }
 nav ul li:hover{
-    color: #2980B9;
+    color: #38ada9;
 }
+
+/* main section */
+.first-section-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 3rem;
+    padding: 3em;
+}
+
+.first-section-txt-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.first-section-title{
+    font-weight: 900;
+    font-size: 5em;
+    color: #FFFAE7;
+}
+
+.first-section-img-container{
+    padding-left: 10em;
+    padding-top: 3em;
+}
+
+/* projects display section */
+
+.projects-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.article-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #079992;
+    margin: 1em;
+    border-radius: 20px;
+}
+
+.article-title{
+    font-weight: 900;
+    text-transform: capitalize;
+    font-size: 2em;
+    color: #FFFAE7;
+}
+
+.article-img-container{
+    margin-top: 3em;
+    border: 2px solid white;
+}
+
+.bottom-article-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
 
 /* BUTTON */
 .btn-container{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 2rem;
+    padding-bottom: 1.4rem;
 }
 
 .button{
     font-family: 'Kalam', sans-serif;
     font-weight: 900;
-    color: #2980b9;
+    color: #079992;
     font-size: 1.25em;
 }
 button{
@@ -90,7 +153,7 @@ button:hover{
     box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.459);
 }
 .button:hover{
-    color: #2980b9;
+    color: #079992;
 }
 .msg{
     font-family: 'Gloria Hallelujah', cursive;
@@ -107,7 +170,7 @@ footer{
     justify-content: center;
     align-items: center;
     padding: 1.25rem;
-    background-color: #227093;
+    background-color: #006266;
 }
 .footer-txt{
     color: #FFFAE7;
