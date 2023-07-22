@@ -99,7 +99,8 @@ nav ul li:hover{
 }
 /* second section experiences */
 .experiences{
-    background-color: #ff5252;
+    background-color: #ff6348;
+    padding-bottom: 3em;
 }
 .experiences-section{
     display: grid;
@@ -110,12 +111,11 @@ nav ul li:hover{
 .experiences-title{
     font-weight: 900;
     font-size: 3rem;
-    color: #FFFAE7;
+    color: #ff6348;
 }
 
 .experiences-img{
     width: 90%;
-    border: 2px solid black;
 }
 
 .experiences-title-container{
@@ -124,10 +124,6 @@ nav ul li:hover{
     align-items: center;
     padding-right: 5rem;
     background-color: #FFFAE7;
-}
-
-.experiences-title{
-    color: #c0392b;
 }
 
 ul{
@@ -143,7 +139,7 @@ ul{
 .career{
     font-weight: 900;
     font-size: 1.2rem;
-    color: #c0392b;
+    color: #ff6348;
     line-height: 2.25em;
 }
 
@@ -214,6 +210,35 @@ button:hover{
     background-color: #FFFAE7;
 }
 
+/* Days i code section */
+.github-section{
+    background-color: black;
+    padding-bottom: 3em;
+}
+
+.github-section-title{
+    font-weight: 900;
+    font-size: 3rem;
+    color: black;
+}
+
+.github-section-title-container{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 5rem;
+    background-color: #FFFAE7;
+}
+
+
+
+
+.github-section-img-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5rem;
+}
 /* footer */
 footer{
     display: flex;
@@ -221,7 +246,7 @@ footer{
     justify-content: center;
     align-items: center;
     padding: 1.25rem;
-    background-color: #227093;
+    background-color: #ff6348;
 }
 .footer-txt{
     color: #FFFAE7;
