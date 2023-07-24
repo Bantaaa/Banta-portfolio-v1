@@ -5,6 +5,8 @@ body{
     font-family: 'Lato', sans-serif;
     margin: 0;
     padding: 0;
+    background-color: #38ada9;
+
 }
 
 .whole{
@@ -28,6 +30,7 @@ nav ul{
     flex-direction: row;
     justify-content: flex-end;
     align-items: center;
+    flex-wrap: wrap;
 }
 nav ul li{
     margin: 1.25em;
@@ -180,13 +183,18 @@ footer{
 
 
 
-
 /* MEDIA QUERY */
 /* Desktop/laptop */
-@media (min-width: 1024px) { ... }
-
-/* Tablet */
-@media (min-width: 768px) and (max-width: 1023px) { ... }
-
-/* Mobile */
-@media (max-width: 767px) { ... }
+@media (max-width: 1080px) {
+    .hidden-img{
+        display: none;
+    }
+    .projects-container{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .whole{
+        width: 100%;
+        background-color: #38ada9;
+    }
+}

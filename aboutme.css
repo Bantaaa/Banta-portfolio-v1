@@ -29,6 +29,8 @@ nav ul{
     flex-direction: row;
     justify-content: flex-end;
     align-items: center;
+    flex-wrap: wrap;
+
 }
 nav ul li{
     margin: 1.25em;
@@ -255,10 +257,169 @@ footer{
 
 /* MEDIA QUERY */
 /* Desktop/laptop */
-@media (min-width: 1024px) { ... }
+@media (max-width: 1080px) {
+    .hidden-img{
+        display: none;
+    }
+    nav ul li{
+        font-weight: 900;
+        font-size: 1.15rem;
+        color: #FFFAE7;
+    
+        border: 2px solid #FFFAE7;
+        text-transform: uppercase;
+        transition: color 0.2s linear;
+        cursor: pointer;
+        padding: 0em;
+    }
+    .first-half{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin: 0;
+    }
+    .first-half-txt{
+        font-weight: 900;
+        font-size: 6rem;
+        color: #FFFAE7;
+    }
+    .quote-container{
+        padding: 0;
+    }
+    .quote{
+        font-family: 'PT Mono', monospace;
+        color: #FFFAE7;
+        font-size: 2rem;
+    }
 
-/* Tablet */
-@media (min-width: 768px) and (max-width: 1023px) { ... }
-
-/* Mobile */
-@media (max-width: 767px) { ... }
+    /* here */
+    .experiences-section{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin: 0em;
+    }
+    
+    
+    .experiences-title{
+        font-weight: 900;
+        font-size: 3rem;
+        color: #ff6348;
+    }
+    
+    .experiences-title-container{
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        background-color: #FFFAE7;
+    }
+    .experiences{
+        background-color: #ff6348;
+        padding-bottom: 3em;
+    }
+    ul{
+        list-style: none;
+    }
+    .career-container ul li{
+        background-color: #FFFAE7;
+        border-radius: 20px;
+        display: flex;
+        align-self: flex-start;
+    }
+    
+    .career{
+        font-weight: 900;
+        font-size: 1rem;
+        color: #ff6348;
+        line-height: 2.25em;
+    }
+    
+    /* BUTTON */
+    .btn-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .button{
+        font-family: 'Kalam', sans-serif;
+        font-weight: 900;
+        color: #2980b9;
+        font-size: 1.25em;
+    }
+    button{
+        border: none;
+        border-radius: 20px;
+        background-color: #FFFAE7;
+        display: flex;
+        align-self: center;
+        transition: 0.4s;
+        cursor: pointer;
+    }
+    button:hover{
+        
+        transform: scale(1.1);
+        box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.459);
+    }
+    .button:hover{
+        color: #2980b9;
+    }
+    .msg{
+        font-family: 'Gloria Hallelujah', cursive;
+        font-size: 1.25em;
+        color: #FFFAE7;
+    }
+    /* tools i use section */
+    
+    .tools-container{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    
+    .tool-container{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .tools-title{
+        font-weight: 900;
+        font-size: 3rem;
+        color: #c0392b;
+    }
+    
+    .tools-title-container{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        background-color: #FFFAE7;
+    }
+    
+    /* Days i code section */
+    .github-section{
+        background-color: black;
+        padding-bottom: 3em;
+    }
+    
+    .github-section-title{
+        font-weight: 900;
+        font-size: 3rem;
+        color: black;
+    }
+    
+    .github-section-title-container{
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        background-color: #FFFAE7;
+    }
+    
+    
+    
+    
+    .github-section-img-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+}

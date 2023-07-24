@@ -33,6 +33,7 @@ nav ul{
     flex-direction: row;
     justify-content: flex-end;
     align-items: center;
+    flex-wrap: wrap;
 }
 nav ul li{
     margin: 1.25em;
@@ -136,6 +137,7 @@ nav ul li:hover::before{
     grid-template-columns: 1fr 1fr 1fr;
     justify-content: center;
     align-items: center;
+    flex-wrap: w;
     margin: 6em;
 }
 .color1{
@@ -221,10 +223,14 @@ footer{
 
 /* MEDIA QUERY */
 /* Desktop/laptop */
-@media (min-width: 1024px) { ... }
+@media (max-width: 1080px) {
+    .hidden-img{
+        display: none;
+    }
+}
 
-/* Tablet */
-@media (min-width: 768px) and (max-width: 1023px) { ... }
+/* Tablet
+/* @media (min-width: 768px) and (max-width: 1023px) { ... } */
 
 /* Mobile */
-@media (max-width: 767px) { ... }
+/* @media (max-width: 767px) { ... } */ 
