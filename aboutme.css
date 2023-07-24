@@ -251,3 +251,14 @@ footer{
 .footer-txt{
     color: #FFFAE7;
 }
+
+
+/* MEDIA QUERY */
+/* Desktop/laptop */
+@media (min-width: 1024px) { ... }
+
+/* Tablet */
+@media (min-width: 768px) and (max-width: 1023px) { ... }
+
+/* Mobile */
+@media (max-width: 767px) { ... }
