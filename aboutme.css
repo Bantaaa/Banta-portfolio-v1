@@ -261,20 +261,10 @@ footer{
     .hidden-img{
         display: none;
     }
-    nav ul li{
-        font-weight: 900;
-        font-size: 1.15rem;
-        color: #FFFAE7;
     
-        border: 2px solid #FFFAE7;
-        text-transform: uppercase;
-        transition: color 0.2s linear;
-        cursor: pointer;
-        padding: 0em;
-    }
     .first-half{
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: auto;
         margin: 0;
     }
     .first-half-txt{
@@ -294,7 +284,7 @@ footer{
     /* here */
     .experiences-section{
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: auto;
         margin: 0em;
     }
     
@@ -371,7 +361,7 @@ footer{
     
     .tools-container{
         display: grid;
-        grid-template-columns: 1fr;
+        grid-template-columns: auto;
     }
     
     .tool-container{

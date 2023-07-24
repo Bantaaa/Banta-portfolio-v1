@@ -5,6 +5,7 @@ body{
     font-family: 'Lato', sans-serif;
     margin: 0;
     padding: 0;
+    background-color: #2980b9;
 }
 nav ul {
     list-style: none;
@@ -19,7 +20,7 @@ nav ul {
 /* nav barre */
 nav ul {
     list-style: none;
-    margin: 0;
+    margin: 2rem;
     padding: 0;
 }
 
@@ -30,10 +31,10 @@ a{
 
 nav ul{
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
     justify-content: flex-end;
     align-items: center;
-    flex-wrap: wrap;
 }
 nav ul li{
     margin: 1.25em;
@@ -137,7 +138,6 @@ nav ul li:hover::before{
     grid-template-columns: 1fr 1fr 1fr;
     justify-content: center;
     align-items: center;
-    flex-wrap: w;
     margin: 6em;
 }
 .color1{
@@ -220,17 +220,112 @@ footer{
 .footer-txt{
     color: #FFFAE7;
 }
-
-/* MEDIA QUERY */
-/* Desktop/laptop */
-@media (max-width: 1080px) {
+@media (1080px <= width <= 1450px)
+{
     .hidden-img{
         display: none;
     }
+} 
+
+
+@media (max-width: 1080px)
+{
+    nav ul{
+        /* display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: flex-end; */
+        align-items: center;
+    }
+    .hidden-img{
+        display: none;
+    }
+    .first-half{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin: 10em;
+    }
+    
+    .first-half-txt-container{
+        display: flex;
+        justify-content: center;
+        align-self: center;
+    }
+    
+    .first-half-txt{
+        font-weight: 900;
+        font-size: 2.5rem;
+        color: #FFFAE7;
+    }
+    
+    .second-half{
+        display: grid;
+        grid-template-columns: auto;
+        padding: 4em;
+        background-color: #3498db;
+    }
+    
+    .second-half-h2{
+        font-weight: 900;
+        color: #FFFAE7;
+        font-size: 1.9rem;
+    }
+    .second-half-txt-container{
+        margin: 0rem;
+    }
+    .second-half-p{
+        color: #FFFAE7;
+        font-family: 'Gloria Hallelujah', cursive;
+        font-size: 1.25rem;
+        font-weight: 400;
+    
+    }
+    /* Comments of my colleagues section  */
+    
+    .comments{
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-content: center;
+        align-items: center;
+        margin: 6em;
+    }
+    .color1{
+        color: #FFFAE7;
+        font-weight: 900;
+        font-size: 1.5em;
+    }
+    .comment{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    .username, .msg{
+        text-align: center;
+    }
+    .comment-section-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0em;
+    }
+    .comment-section-title{
+        font-family: 'Lato', sans-serif;
+        font-weight: 900;
+        font-size: 2.25em;
+        color: #FFFAE7;
+    }
+    /* footer */
+    footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 1.25rem;
+        background-color: #227093;
+    }
+    .footer-txt{
+        color: #FFFAE7;
+    }
 }
-
-/* Tablet
-/* @media (min-width: 768px) and (max-width: 1023px) { ... } */
-
-/* Mobile */
-/* @media (max-width: 767px) { ... } */ 
