@@ -5,7 +5,7 @@ i'm gonna try my first "well styled" portfolio after i got familiar with css gri
 
 # My First Portfolio
 
-This is my first portfolio website built using HTML and CSS only. It showcases some of my projects and skills, and serves as an introduction to who I am as a developer.
+This is my first portfolio website built using HTML and CSS only. It showcases some of my "projects" and skills, and serves as an introduction to who I am as a developer.
 
 ## Table of Contents
 
