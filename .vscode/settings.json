@@ -1,3 +1,7 @@
 {
-  "liveServer.settings.port": 5502
+  "liveServer.settings.port": 5502,
+  "editor.fontFamily": "Consolas, 'Courier New', monospace",
+  "scm.inputFontFamily": "default",
+  "editor.tokenColorCustomizations": {
+  }
 }
