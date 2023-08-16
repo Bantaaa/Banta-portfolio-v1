@@ -1,6 +1,6 @@
 
 
-i'm gonna try my first "well styled" portfolio after i got familiar with css grid and flexbox !
+after i got familiar with css grid and flexbox i tried my first "well styled" portfolio which is COMPLETELY ORIGINAL ! 
 
 
 # My First Portfolio
